@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Nester超任模拟器</string>
+    <string name="dummy_content">超任模拟器</string>
+
+    <string name="open_game">打开</string>
+    <string name="load_game">载入存档</string>
+    <string name="save_game">保存存档</string>
+    <string name="settings">设置</string>
+    <string name="reset_game">复位</string>
+    <string name="quit_game">退出</string>
+    <string name="print_screen">截屏</string>
+    <string name="about">关于</string>
+
+    <string name="quit_game_title">退出游戏</string>
+    <string name="quit_game_prompt">你要退出游戏吗?</string>
+    
+    <string name="save_and_quit">存盘退出</string>
+    <string name="developer">开发者</string>
+    <string name="email">Email</string>
+    <string name="copyright">版权</string>
+    <string name="blog">博客</string>
+    <string name="sponsor">赞助商</string>
+    <string name="qq">QQ</string>
+    <string name="donate">赞助</string>
+    
+    <string name="myName">Tony Lew</string>
+    <string name="myBlog">http://blog.csdn.net/tonyfield</string>
+    
+    <string name="load_ram">读取存档</string>
+    <string name="load_ram_msg">现在读取存档？</string>
+    <string name="save_ram">保存存档</string>
+    <string name="save_ram_msg">现在保存存档？</string>
+        
+
+    <string name="prompt_print_screen_succeed">截屏已经保存到\"%1$s\"。</string>    
+    <string name="warning_print_screen_failed">截屏保存失败</string>
+    <string name="warning_loadgame_failed">加载NES文件失败!</string>
+    <string name="warning_saveram_failed">保存NES文件失败!</string>
+    <string name="warning_file_no_read_authority">你没有访问这个文件的权限!</string>
+    <string name="warning_folder_no_read_authority">你没有访问这个目录的权限!</string>
+    
+    <!-- 图像设置 -->
+    <string name="screenSetting">画面设置</string>
+	<string name="videoSizeSetting">尺寸设置</string>
+	<string name="videoSizeSettingSummary">设置Nes游戏画面尺寸</string>
+	<string name="videoOrientationSetting">方向设置</string>
+	<string name="videoOrientationSettingSummary">设置Nes游戏画面方向</string>
+	
+    <!-- 音频设置   静音/音量/伴音选择 -->
+	<string name="audioSetting">音频设置</string>
+	<string name="muteSetting">静音设置</string>
+	<string name="muteOn">选择静音</string>
+	<string name="muteOff">取消静音</string>
+	<string name="volumeSetting">音量</string>
+	<string name="volumeSettingSummary">调节音量到</string>
+	<string name="soundAccompaniment">游戏伴音</string>
+	<string name="soundAccompanimentSummary">你有机会选择其他音乐作为游戏伴音</string>
+	<string name="soundFromGame">原始伴音</string>
+	<string name="soundFromMusic">音乐伴音</string>
+	<string name="musicOption">音乐选项</string>
+	<string name="soundOn">打开声音</string>
+	<string name="soundOff">关闭声音</string>
+	
+	<!-- 手柄设置  使用键盘/加速感应器及蓝牙手柄配置 -->
+	<string name="controllerSetting">手柄设置</string>
+	<string name="controllerType">控制器类型</string>
+	<string name="virtualPadSetting">虚拟键盘设置</string>
+	<string name="padDirectSimply">方向键只支持上下左右</string>
+	<string name="padDirect4">方向键只支持四个方向</string>
+	<string name="padDirect8">方向键支持八个方向</string>
+	<string name="padTransparency">虚拟键盘透明度</string>
+	<string name="padTransparencySummary">虚拟键盘透明度</string>
+		
+    <!-- 网络设置  蓝牙/WIFI 联机游戏配置 -->
+	<string name="networkSetting">网络设置</string>
+
+	<!-- 其他设置   游戏加速/跳帧/金手指等 -->
+	<string name="otherSetting">其他设置</string>
+	<string name="speedup">加速设置</string>
+	<string name="skipframe">跳帧设置</string>
+	
+	<string name="key_nes_video_size_option">key_nes_video_size_option</string>
+	<string name="key_nes_video_orientation_option">key_nes_video_orientation_option</string>
+	<string name="key_nes_mute_option">key_nes_mute_option</string>
+	<string name="key_nes_volume_option">key_nes_volume_option</string>
+	<string name="key_nes_audio_option">key_nes_audio_option</string>
+	<string name="key_nes_other_music_option">key_nes_other_music_option</string>
+	<string name="key_nes_controller_type_options">key_nes_controller_type_options</string> 
+	<string name="key_nes_pad_show_option">key_nes_pad_show_option</string> 
+	<string name="key_nes_pad_direction_option">key_nes_pad_direction_option</string> 
+	<string name="key_nes_virtual_pad_transparency_option">key_nes_virtual_pad_transparency_option</string> 
+		
+	<string name="video_size_options_default_value" >2</string>
+	<string name="video_orientation_options_default_value" >2</string>
+	<string name="controller_type_options_default_value" >0</string>
+	<string name="other_music_options_default_value" >0</string>
+    
+	<string name="introduce">介绍</string>
+	<string name="introduce_asset">introduce_zh.txt</string>
+	<string name="license">许可</string>
+	<string name="license_asset">gpl_en.txt</string>
+	<string name="legal">声明</string>
+	<string name="legal_asset">legal_zh.txt</string>
+	<string name="update">更新</string>
+</resources>

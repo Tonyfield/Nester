@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingRight="?android:attr/scrollbarSize" >
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="60"
+        android:minWidth="160dip"
+        android:paddingRight="25dip"
+        android:progress="20"
+        android:textIsSelectable="true" >
+    </SeekBar>    
+	
+    <TextView
+        android:id="@+id/seekBarPrefUnitsLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/seekBar1"
+        android:layout_below="@id/seekBar1"
+        android:textIsSelectable="true" >
+
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/seekBarPrefValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/seekBar1"
+	    android:layout_centerHorizontal="true"
+	    android:textIsSelectable="true" >
+
+	</TextView>
+
+    <TextView
+        android:id="@+id/seekBarPrefUnitsRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/seekBar1"
+        android:layout_below="@id/seekBar1"
+        android:textIsSelectable="true" >
+
+	</TextView>
+	
+
+
+</RelativeLayout>

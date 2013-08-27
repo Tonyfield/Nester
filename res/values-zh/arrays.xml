@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="video_size_options">
+	<item>原始尺寸(256×240)</item>
+	<item>二倍尺寸(512×480)</item>
+	<item>适应屏幕</item>
+</string-array>
+<string-array name="video_size_options_values">
+	<item>1</item>
+	<item>2</item>
+	<item>0</item>
+</string-array>
+
+<string-array name="video_orientation_options">
+	<item>水平方向</item>
+	<item>垂直方向</item>
+	<item>系统默认</item>
+</string-array>
+<string-array name="video_orientation_options_values">
+	<item>0</item>
+    <item>1</item>
+	<item>2</item>
+</string-array>
+
+<string-array name="controller_type_options">
+	<item>触摸屏虚拟</item>
+	<item>键盘</item>
+	<item>游戏手柄</item>
+</string-array>
+<string-array name="controller_type_options_values">
+	<item>0</item>
+    <item>1</item>
+	<item>2</item>
+</string-array>
+
+<string-array name="other_music_options">
+	<item>改行（侯宝林）</item>
+	<item>武松打虎（侯宝林）</item>
+	<item>有一个美丽的传说（蒋大为） </item>
+	<item>草原之夜（李双江） </item>
+	<item>茉莉花（张也）  </item>
+	<item>不了情（徐小凤） </item>
+	<item>网络音乐台（莫扎特） </item>
+</string-array>
+<string-array name="other_music_options_values">
+	<item>xs_hbl_gh.mp3</item>
+	<item>xs_hbl_wsdh.mp3</item>
+	<item>mu_jdw_yygmldcs.mp3</item>
+	<item>mu_lsj_cyzy.mp3</item>
+	<item>mu_zy_mlh.mp3</item>
+	<item>mu_xxf_blq.mp3</item>
+	<item>http://listen.radionomy.com/Radio-Mozart</item>
+</string-array>
+</resources>

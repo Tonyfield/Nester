@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/menuGroup_Main">
+		<item android:id="@+id/menu_open"
+			android:title="@string/open_game"
+			android:showAsAction="ifRoom"/>
+	    <item android:id="@+id/menu_load"
+			android:title="@string/load_game"
+			android:showAsAction="ifRoom"/>
+		<item android:id="@+id/menu_save"
+			android:title="@string/save_game"
+			android:showAsAction="ifRoom"/>
+		<item android:id="@+id/menu_settings"
+			android:title="@string/settings"
+			android:showAsAction="ifRoom"/>
+		<item android:id="@+id/menu_reset"
+			android:title="@string/reset_game"
+			android:showAsAction="ifRoom"/>
+		<item android:id="@+id/menu_prtscn"
+			android:title="@string/print_screen"
+			android:showAsAction="ifRoom"/>
+		<item android:id="@+id/menu_quit"
+			android:title="@string/quit_game"
+			android:showAsAction="ifRoom"/>
+	</group> 
+</menu>

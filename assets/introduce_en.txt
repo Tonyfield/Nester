@@ -1,0 +1,12 @@
+     Name: Nester NES simulator
+  Version: V0.20
+     Date: 2013-5-12
+Developer: Tonyfield
+
+
+The software is ported based on open source code InfoNes v0.97J. As a new comer, I spent about 1 month to finish the main functions. In fact, it is on 2011 one more powerful Nes simulator, yongzh's Nesoid, is very populate in internet. Additionally yongzh also developed other simulators such as N64oid and so on. So I certainly take it as my reference so that to improve my android program ability.
+
+Please not hesitate to contact me if you are interested in the app or find any flaw or have some suggestion. My e-mail is tonylhk0781@163.com.
+
+Tonyfield
+2013 May @ SH

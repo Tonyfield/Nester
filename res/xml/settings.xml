@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/settings">
+
+	<PreferenceCategory android:title="@string/screenSetting">
+		<ListPreference
+			android:key="@string/key_nes_video_size_option"
+			android:title="@string/videoSizeSetting"
+			android:entries="@array/video_size_options"
+			android:entryValues="@array/video_size_options_values"
+			android:dialogTitle="@string/videoSizeSetting"
+			android:defaultValue="@string/video_size_options_default_value"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/audioSetting">
+	<SwitchPreference android:key="@string/key_nes_mute_option" 
+	    android:title="@string/muteSetting"
+	    android:summaryOn="@string/muteOn" 
+	    android:disableDependentsState="true" 
+	    android:summaryOff="@string/muteOff" />
+    
+	<com.falcon.SeekBarPreference android:key="@string/key_nes_volume_option" 
+	    android:title="@string/volumeSetting" 
+	    android:summary="@string/volumeSettingSummary" 
+	    android:dependency="@string/key_nes_mute_option"/>
+	
+	<SwitchPreference android:key="@string/key_nes_audio_option"
+	    android:title="@string/soundAccompaniment" 
+	    android:summary="@string/soundAccompanimentSummary" 
+	    android:summaryOn="@string/soundFromGame" 
+	    android:summaryOff="@string/soundFromMusic" 
+	    android:disableDependentsState="false" 
+	    android:dependency="@string/key_nes_mute_option"  />
+	
+	<ListPreference
+		android:key="@string/key_nes_other_music_option"
+		android:title="@string/musicOption"
+		android:entries="@array/other_music_options"
+		android:entryValues="@array/other_music_options_values"
+		android:dialogTitle="@string/musicOption"
+		android:defaultValue="@string/other_music_options_default_value"
+		android:dependency="@string/key_nes_audio_option" />
+
+	</PreferenceCategory>
+</PreferenceScreen>

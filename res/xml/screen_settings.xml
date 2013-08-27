@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/screenSetting"
+	android:summary="@string/screenSetting">
+
+	<ListPreference
+			android:key="@string/key_nes_video_size_option"
+			android:title="@string/videoSizeSetting"
+			android:entries="@array/video_size_options"
+			android:entryValues="@array/video_size_options_values"
+			android:dialogTitle="@string/videoSizeSetting"
+			android:defaultValue="@string/video_size_options_default_value"/>
+
+	<ListPreference
+			android:key="@string/key_nes_video_orientation_option"
+			android:title="@string/videoOrientationSetting"
+			android:entries="@array/video_orientation_options"
+			android:entryValues="@array/video_orientation_options_values"
+			android:dialogTitle="@string/videoOrientationSetting"
+			android:defaultValue="@string/video_orientation_options_default_value"/>
+	
+		
+</PreferenceScreen>

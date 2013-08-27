@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nester NES Simulator</string>
+    <string name="dummy_content">NES\nSIMU</string>
+
+    <string name="open_game">Open Game</string>
+    <string name="load_game">Load Game</string>
+    <string name="save_game">Save Game</string>
+    <string name="settings">Settings</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="quit_game">Quit</string>
+    <string name="print_screen">Print Screen</string>
+    <string name="about">About</string>
+
+    <string name="quit_game_title">Quit Game</string>
+    <string name="quit_game_prompt">Do you want to quit the game?</string>
+    
+    <string name="save_and_quit">Save n Quit</string>
+    <string name="developer">Developer</string>
+    <string name="email">Email</string>
+    <string name="copyright">Copyright</string>
+    <string name="blog">Blog</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="qq">QQ</string>
+    <string name="donate">Donate</string>
+    
+    <string name="myName">Tony Liu</string>
+    <string name="myBlog">http://blog.csdn.net/tonyfield</string>
+
+    <string name="load_ram">Load SRAM</string>
+    <string name="load_ram_msg">Load SRAM now？</string>
+    <string name="save_ram">Save SRAM</string>
+    <string name="save_ram_msg">Save SRAM now？</string>
+    
+    <string name="prompt_print_screen_succeed">Printed screen has been saved into \"%1$s\" !</string>    
+    <string name="warning_print_screen_failed">Failed to save the printed screen</string>    
+    <string name="warning_loadgame_failed">Failed to load NES rom file!</string>
+    <string name="warning_saveram_failed">Failed to save NES SRAM</string>
+    <string name="warning_file_no_read_authority">You have no authority to access the file!</string>
+    <string name="warning_folder_no_read_authority">You have no authority to access the folder!</string>
+    
+    <!-- 图像设置 -->
+	<string name="screenSetting">Screen Setting</string>
+	<string name="videoSizeSetting">Size setting</string>
+	<string name="videoSizeSettingSummary">Set game video size</string>
+	<string name="videoOrientationSetting">Orientation Setting</string>
+	<string name="videoOrientationSettingSummary">Set game video orientation</string>
+	
+    <!-- 音频设置   静音/音量/伴音选择 -->
+	<string name="audioSetting">Audio Setting</string>
+	<string name="muteSetting">Mute</string>
+	<string name="muteOn">Mute On</string>
+	<string name="muteOff">Mute Off</string>
+	<string name="volumeSetting">Volume</string>
+	<string name="volumeSettingSummary">Adjust volume to</string>
+	<string name="soundAccompaniment">Sound Accompaniment</string>
+	<string name="soundAccompanimentSummary">You may select other music rather than game noise</string>
+	<string name="soundFromGame">Original Sound</string>
+	<string name="soundFromMusic">Music</string>
+	<string name="musicOption">Music Setting</string>
+	<string name="soundOn">Sound On</string>
+	<string name="soundOff">Sound Off</string>
+	
+    <!-- 手柄设置  使用键盘/加速感应器及蓝牙手柄配置 -->
+	<string name="controllerSetting">Controller Setting</string>
+	<string name="controllerType">Controller Type</string>
+	<string name="virtualPadSetting">Virtual Pad Setting</string>
+	<string name="padDirectSimply">Direct Key Only support Up/Down/Left/Right</string>
+	<string name="padDirect4">Direct key only support 4 directions</string>
+	<string name="padDirect8">Direct key only support 8 directions</string>
+	<string name="padTransparency">Pad Transparency</string>
+	<string name="padTransparencySummary">Virtual Pad Transparency</string>
+				
+    <!-- 网络设置  蓝牙/WIFI 联机游戏配置 -->
+	<string name="networkSetting">Network Setting</string>
+
+	<!-- 其他设置   游戏加速/跳帧/金手指等 -->
+	<string name="otherSetting">Other Setting</string>
+	<string name="speedup">Speedup Setting</string>
+	<string name="skipframe">Skipframe Setting</string>
+				
+	<string name="key_nes_video_size_option">key_nes_video_size_option</string>
+	<string name="key_nes_video_orientation_option">key_nes_video_orientation_option</string>
+	<string name="key_nes_mute_option">key_nes_mute_option</string>
+	<string name="key_nes_volume_option">key_nes_volume_option</string>
+	<string name="key_nes_audio_option">key_nes_audio_option</string>
+	<string name="key_nes_other_music_option">key_nes_other_music_option</string>
+	<string name="key_nes_controller_type_options">key_nes_controller_type_options</string> 
+	<string name="key_nes_pad_show_option">key_nes_pad_show_option</string> 
+	<string name="key_nes_pad_direction_option">key_nes_pad_direction_option</string> 
+	<string name="key_nes_virtual_pad_transparency_option">key_nes_virtual_pad_transparency_option</string> 
+		
+			
+	<string name="video_size_options_default_value" >2</string>
+	<string name="video_orientation_options_default_value" >2</string>
+	<string name="controller_type_options_default_value" >0</string>
+	<string name="other_music_options_default_value" >2</string>
+	
+	<string name="introduce">Introduce</string>
+	<string name="introduce_asset">introduce_en.txt</string>
+	<string name="license">License</string>
+	<string name="license_asset">gpl_en.txt</string>
+	<string name="legal">Legal</string>
+	<string name="legal_asset">legal_en.txt</string>
+	<string name="update">Update</string>
+		
+	
+</resources>

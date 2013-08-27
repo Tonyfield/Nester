@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004488" >
+        <TableRow 
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textCopyright"
+                android:text="@string/copyright"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+            <TextView
+                android:id="@+id/textSpace" 
+                android:text=" "/>
+            
+            <TextView
+                android:id="@+id/textCopyrightDesc"
+                android:text="LHK @ 2013"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2">
+
+            <TextView
+                android:id="@+id/textDeveloper"
+                android:text="@string/developer"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/textSpace" />
+            <TextView
+                android:id="@+id/textDeveloperDesc"
+                android:text="@string/myName"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3" >
+            <TextView
+                android:id="@+id/textEmail"
+                android:text="@string/email"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textSpace" />
+
+            <TextView
+                android:id="@+id/textEmailDesc"
+                android:text="tonylhk0781@163.com"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4" >
+            <TextView
+                android:id="@+id/textBlog"
+                android:text="@string/blog"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/textSpace" />
+
+            <TextView
+                android:id="@+id/textBlogDesc"
+                android:text="@string/myBlog"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+
+            <TextView
+                android:id="@+id/textSponsor"
+                android:text="@string/qq"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/textSpace" />
+            <TextView
+                android:id="@+id/textSponsorDesc"
+                android:text="1413167597"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+</TableLayout>

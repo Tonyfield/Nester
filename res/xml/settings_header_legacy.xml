@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference 
+        android:title="@string/screenSetting" >
+        <intent 
+            android:targetPackage="com.falcon.nesSimon"
+            android:targetClass="com.falcon.nesSimon.preference.SettingsPreferenceActivity"
+            android:action="com.falcon.nesSimon.preference.PREFS_SCREEN" />
+    </Preference>
+    <Preference 
+        android:title="@string/audioSetting">
+        <intent 
+            android:targetPackage="com.falcon.nesSimon"
+            android:targetClass="com.falcon.nesSimon.preference.SettingsPreferenceActivity"
+            android:action="com.falcon.nesSimon.preference.PREFS_AUDIO" />
+    </Preference>
+    <Preference 
+        android:title="@string/controllerSetting">
+        <intent 
+            android:targetPackage="com.falcon.nesSimon"
+            android:targetClass="com.falcon.nesSimon.preference.SettingsPreferenceActivity"
+            android:action="com.falcon.nesSimon.preference.PREFS_CONTROLLER" />
+    </Preference>
+</PreferenceScreen>

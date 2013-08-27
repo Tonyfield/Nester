@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_rav14335_1"
+    android:fadingEdge="vertical"
+    android:fadingEdgeLength="100dp" >
+
+    <Button
+        android:id="@+id/btn_open"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:alpha="0.8"
+        android:background="@drawable/btn_bg_blue3"
+        android:text="@string/open_game"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_settings"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_open"
+        android:layout_below="@+id/btn_open"
+        android:layout_marginTop="30dp"
+        android:alpha="0.8"
+        android:background="@drawable/btn_bg_blue3"
+        android:text="@string/settings"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <Button
+        android:id="@+id/btn_about"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_settings"
+        android:layout_below="@+id/btn_settings"
+        android:layout_marginTop="30dp"
+        android:alpha="0.8"
+        android:background="@drawable/btn_bg_blue3"
+        android:text="@string/about"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/btn_quit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_about"
+        android:layout_below="@+id/btn_about"
+        android:layout_marginTop="30dp"
+        android:alpha="0.8"
+        android:background="@drawable/btn_bg_blue3"
+        android:text="@string/quit_game"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
